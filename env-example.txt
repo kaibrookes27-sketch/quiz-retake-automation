@@ -1,0 +1,26 @@
+# Your store's .myshopify.com domain (not your custom domain)
+SHOPIFY_STORE_DOMAIN=mysterymanga.myshopify.com
+
+# From your custom/private Shopify app — see README for how to get this
+SHOPIFY_ADMIN_API_TOKEN=
+
+# Optional — defaults to 2025-01 if not set
+SHOPIFY_API_VERSION=2025-01
+
+# From resend.com
+RESEND_API_KEY=
+
+# Must be on a domain you've verified in Resend
+RESEND_FROM_ADDRESS=Mystery Manga Box <hello@mysterymanga.com>
+
+# Where the quiz-retake button links to
+QUIZ_URL=https://mysterymanga.com/?open_quiz=1
+
+# A password you make up yourself, used to manually trigger a test run
+CRON_SECRET=
+
+# How many days after billing to send (default 21 — lower this for testing)
+TARGET_DAYS=21
+
+# Set to "true" to log instead of actually sending/writing anything
+DRY_RUN=true

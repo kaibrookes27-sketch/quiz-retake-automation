@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/check-quiz-retake",
+      "schedule": "0 9 * * *"
+    }
+  ]
+}

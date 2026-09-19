@@ -1,0 +1,12 @@
+{
+  "name": "quiz-retake-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily job: emails Mystery Manga Box subscribers 21 days after billing to retake the quiz / switch tiers.",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "resend": "^4.0.0"
+  }
+}
